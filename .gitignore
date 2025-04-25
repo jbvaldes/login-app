@@ -1,19 +1,29 @@
-Ignorar archivos generados por Maven
+# Ignorar archivos generados por Maven
+target/
+*.log
 
-target/ *.log
+# Ignorar archivos de IDE
+.idea/
+*.iml
 
-Ignorar archivos de IDE
+# Ignorar cachés del sistema
+.cache/
+.config/
+.local/
 
-.idea/ *.iml
+# Ignorar directorios personales
+Escritorio/
+Descargas/
+Documentos/
+Imágenes/
+Música/
+Vídeos/
 
-Ignorar archivos de caché del sistema
-
-.cache/ .config/ .local/
-
-Ignorar directorios personales
-
-Escritorio/ Descargas/ Documentos/ Imágenes/ Música/ Vídeos/
-
-Ignorar otros proyectos y archivos temporales
-
-*.tmp *.bak node_modules/ dist/ eclipse-workspace/ NetBeansProjects/ PycharmProjects/
+# Ignorar otros proyectos
+*.tmp
+*.bak
+node_modules/
+dist/
+eclipse-workspace/
+NetBeansProjects/
+PycharmProjects/
