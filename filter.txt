@@ -1,0 +1,6 @@
+.cache/
+.config/
+Escritorio/
+Descargas/
+*.docx
+*.pdf
